@@ -130,13 +130,24 @@ header .logo {
 }
 
 /* End Header */
-/* .container area */
+/* Container area */
 
 .container {
-	width: 90%;
-	margin-top: 100px;
+	margin: 100px 50px;
+	display: flex;
+	align-content: center;
+	flex-flow: column wrap;
 }
 
+/* End Container Area */
+/* Divider Line */
+.divider-bar {
+	border-top: 2px solid black;
+	height: 5px;
+	width: 100%;
+	margin: 40px 0;
+}
+/* End Divider Line */
 /* Hero Area */
 
 hero {
@@ -173,23 +184,18 @@ hero .hero-content button:hover {
 
 .first-content {
 	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 40px;
-	justify-items: space-around;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
-.divider-bar {
-	border-top: 2px solid black;
-	height: 5px;
-	width: 100%;
-	margin: 40px 0;
-}
 .first-content .features {
-	width: 50%;
+	width: 400px;
 }
 
 .first-content .about {
-	width: 50%;
+	width: 400px;
 }
 
 /* End First Content Block */
@@ -204,46 +210,36 @@ hero .hero-content button:hover {
 
 .second-content {
 	display: flex;
-	flex-wrap: wrap;
-	margin-top: 40px;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 50px 0;
 }
-
-.second-content .divider-bar {
-	border-top: 2px solid black;
-	height: 5px;
-	width: 100%;
-	margin: 40px 0px;
-}
-
 .second-content .services {
-	width: 33%;
-	padding: 15px 0;
-
+width: 200px;
 }
 
 .second-content .product {
-	width: 33%;
-	padding: 15px 0;
-
+width: 200px;
 }
 
 .second-content .vision {
-	width: 33%;
-	padding: 15px 0;
-
-}
+width: 200px;
+} 
 
 /* End Second Content */
 /* Address Block */
 
-address p {
-	margin: 20px 0px;
+address{
+	height: 75px;
+	align-content: space-between;
 }
 
 /* End Address Blcok */
 /* Footer */
 footer {
-	margin: 100px 0px;
+	display: flex;
+	justify-content: center;
+	padding: 100px 0;
 }
 
 /* End Footer */

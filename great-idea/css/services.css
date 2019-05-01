@@ -2,18 +2,24 @@
 
 /* Hero */
 .container .short-hero {
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-	align-content: space-around;
+	height: auto;
+	flex-flow: column nowrap;
 	padding: 20px 0px 0px 0px;
 	top: 50px;
 }
 
 .container .short-hero img {
-	width: 100%;
 	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
 }
+
+.container .short-hero .hero-content {
+	width: 80%;
+	text-align: left;
+}
+
+
 /* End Hero */
 /* Divider Line */
 .divider-line {
@@ -85,26 +91,25 @@
 /* Final Section */
 .final-section {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
 	height: 300px;
 }
 
 .final-section .final-content-a {
-	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding-right: 50px;
-
+	width: 400px;
+	height: 300px;
 }
 
 .final-section .final-content-b {
-	width: 50%;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
-	padding: 100px 0;
 }
 /* End Final Section */
