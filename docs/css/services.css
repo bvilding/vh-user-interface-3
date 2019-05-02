@@ -113,11 +113,3 @@ footer {
 	justify-content: center;
 }
 /* End Final Section */
-
-@media(max-width: 775px){
-	.final-section .final-content-a {
-		order: 1;
-		height: 250px;
-		margin-top: 20px;
-	}
-}

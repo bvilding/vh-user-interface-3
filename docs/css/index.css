@@ -241,7 +241,7 @@ address{
 footer {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 25px;
+	padding: 100px 0;
 }
 
 /* End Footer */
@@ -319,15 +319,5 @@ footer {
 		margin: 30px 0;
 	}
 
-	footer .services {
-		justify-content: center;
-		margin-bottom: 25px;
-		margin-top: 200px;
-	}
 
-	footer .index {
-		justify-content: center;
-		margin-bottom: 25px;
-		margin-top: 100px;
-	}
 }
